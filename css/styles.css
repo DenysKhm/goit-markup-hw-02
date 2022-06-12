@@ -1,0 +1,87 @@
+:root {
+    --primery-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-text-color: #2196F3;
+    --primery-background-color: #FFFFFF;
+}
+.page {
+    background-color: var(--primery-background-color);
+    color: var(--primery-text-color);
+}
+
+.logo {color: var(--accent-text-color);}
+
+.logo-header {color: black;}
+
+/* удалили точки списка */
+ul {list-style: none;}
+
+/* цвет навигации сайта */
+.nav-site .link {
+    color: var(--title-text-color);
+}
+.nav-site .link:hover,
+.nav-site .link:focus {
+    color: var(--accent-text-color);
+}
+
+/* контакты хедер */
+.contacts .link {
+    color: var(--primery-text-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--accent-text-color);
+}
+
+/* первая секция с кнопкой */
+.hero {
+    color: #FFFFFF;
+    background-color: #2F303A;
+}
+.button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+/* вторая секция */
+.title {
+    color: var(--title-text-color);
+}
+
+/* футер */
+.footer {
+    background-color: #2F303A;
+}
+.logo-footer {
+    color: #FFFFFF;
+}
+.address {
+    color: #FFFFFF;
+}
+.link-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* ПОРТФОЛИО */
+.hidden {
+    display: none;
+}
+.button-portfolio {
+    background-color: #F5F4FA;
+    color: #212121;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+    background-color: var(--accent-text-color);
+    color: #FFFFFF;
+}
+
+/* цвет основы текста #757575 */
+/* цвет текста вторички #212121 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+/* цвет основа хедер #FFFFFF */
+/* основа цвет фона #E5E5E5 */
+/* цвет фона верхний #2F303A */
+/* цвет фона наша команда #F5F4FA */
