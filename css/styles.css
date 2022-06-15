@@ -60,13 +60,15 @@ ul {list-style: none;}
 
 /* первая секция с кнопкой */
 .hero {
-    color: #FFFFFF;
     background-color: #2F303A;
+    }
+.hero-title {
+    color: #FFFFFF;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
-    text-transform: uppercase;
+    text-transform: uppercase;   
     }
 .button {
     background-color: #2196F3;
@@ -195,10 +197,13 @@ ul {list-style: none;}
 .button-portfolio .current-button {
     background-color: var(--accent-text-color);
     color: #FFFFFF;
+    font-family: 'Roboto';
 }
 .portfolio a {
     text-decoration: none;
+    font-family: 'Roboto';
 }
+
 .portfolio .title {
     font-weight: 700;
     font-size: 18px;
