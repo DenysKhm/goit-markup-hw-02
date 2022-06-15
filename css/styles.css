@@ -65,9 +65,8 @@ ul {list-style: none;}
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
-    text-transform: uppercase
+    text-transform: uppercase;
     }
 .button {
     background-color: #2196F3;
@@ -82,7 +81,7 @@ ul {list-style: none;}
     cursor: pointer;
 }
 .button:hover {
-    background-color: #158aea;
+    background-color: #188CE8;
 }
 
 /* вторая секция */
@@ -103,7 +102,12 @@ ul {list-style: none;}
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-.team, .job {
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.team-title, .job {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -145,18 +149,27 @@ ul {list-style: none;}
 }
 .address {
     color: #FFFFFF;
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
+.footer-contacts .link-footer{
+    /* font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em; */
+    text-decoration: none;
+}
+
 .link-footer {
     color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    text-decoration: none;
 }
 
 /* ПОРТФОЛИО */
